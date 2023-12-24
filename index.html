@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="for_individual">
+        <img
+          src="https://cdn.filestackcontent.com/ICs7d8BdTNSkLmexcKAt"
+          class="logo"
+          alt="logo"
+        />
+        <h2>For Individuals</h2>
+        <p class="subtitle">
+          Start benefiting from the wellness experience. For <br/> companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+
+        <p class="subtitle_sm">
+          Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.
+        </p>
+      </section>
+
+      <section class="signup">
+        <form>
+          <div class="input_container">
+            <div>
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" />
+            </div>
+            <div>
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" />
+            </div>
+          </div>
+
+          <div class="input_container">
+            <div>
+              <label for="gender">Gender</label>
+              <select id="gender" aria-describedby="gender">
+                <option>Select here</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div>
+              <label for="dob">Date of Birth</label>
+              <input
+                type="date"
+                placeholder="Enter your email address"
+                id="dob"
+              />
+            </div>
+          </div>
+
+          <div class="input_container">
+            <div>
+              <label for="weight">Weight (KG)</label>
+              <input type="text" placeholder="Enter Weight" id="weight" />
+            </div>
+            <div>
+              <label for="height">Height (CM)</label>
+              <input
+                type="text"
+                placeholder="Enter height here.."
+                id="height"
+              />
+            </div>
+          </div>
+
+          <div class="activity">
+            <label for="activity">Activity Level</label>
+            <select
+              id="activity"
+              aria-describedby="activity_level_desc"
+            >
+              <option>Select here</option>
+            </select>
+          </div>
+
+          <div class="full_width_input">
+            <label for="password">Password</label>
+            <div>
+              <input
+                type="password"
+                class="password_input"
+                id="password"
+              />
+              <span class="password_toggle_icon"><i class="fas fa-eye"></i></span>
+            </div>
+          </div>
+
+          <button class="register">Register</button>
+          <p class="terms">
+            By clicking Register, you agree to our
+            <a href="#"><b>Terms of Use</b></a> and our
+            <a href="#"><b>Privacy Policy</b></a>
+          </p>
+        </form>
+      </section>
+    </div>
+</body>
+</html>
